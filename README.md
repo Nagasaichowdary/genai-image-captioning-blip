@@ -60,7 +60,7 @@ iface = gr.Interface(
 iface.launch()
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/653a4238-4728-4647-80be-356272b69e7a)
+![image](https://github.com/user-attachments/assets/e2368764-4108-47fb-9a5c-dccf97bca27f)
 
 ### RESULT:
 Thus, The application allows users to upload an image through the Gradio interface, where it is processed by the BLIP model to generate a caption. Once the image is processed, the BLIP model produces a concise and relevant description of the image, which is displayed back to the user. For instance, if the uploaded image depicts a dog running in a park, the model may generate a caption such as "A dog running on grass." The system successfully demonstrates the integration of the BLIP image captioning model with Gradio, providing an intuitive and responsive user interface for real-time caption generation.
